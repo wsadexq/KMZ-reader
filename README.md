@@ -1,6 +1,22 @@
 # KMZ Preview
 
+[下载最新版 Windows 安装包](https://github.com/wsadexq/KMZ-reader/releases/latest/download/install.exe) · [查看所有版本](https://github.com/wsadexq/KMZ-reader/releases)
+
 KMZ Preview 是一个 Windows 本地工具，用于快速查看 DJI KMZ 航线。它直接读取 KMZ 内的 `wpmz/waylines.wpml` 和 `wpmz/template.kml`，在浏览器中提供 2D 地图、无 Token 的本地 3D 航线、字段解读和 XML 原文查看方式。
+
+## 界面预览
+
+### 2D 航线地图
+
+![KMZ Preview 2D route preview](docs/images/route-preview-2d.png)
+
+### WPML 字段解读
+
+![WPML field explanations](docs/images/wpml-field-explanation.png)
+
+### XML 原文
+
+![Template KML XML source](docs/images/template-xml-source.png)
 
 ## 特点
 
