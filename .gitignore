@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+leaflet-*.zip
+leaflet-temp/
+.build-venv/
+build/
+dist/
+.tools/
+release/

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KMZ Preview</title>
+  <link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="/vendor/cesium/Widgets/widgets.css">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div><h1 id="title">KMZ 航线预览</h1><p id="source" class="muted">正在读取航线数据…</p></div>
+    <div id="summary" class="summary"></div>
+  </header>
+  <nav class="file-tabs" aria-label="文件选择"><div id="file-tabs"></div><div class="privacy"><label><input id="privacy-mask" type="checkbox" checked> 隐私遮罩</label><label><input id="online-map" type="checkbox" checked> 允许在线底图</label></div></nav>
+  <nav class="view-tabs" aria-label="查看模式"><button data-view="map" class="active">地图预览</button><button data-view="globe">3D 航线</button><button data-view="fields">字段解读</button><button data-view="xml">XML 原文</button></nav>
+  <main class="workspace">
+    <section id="map-view" class="map-panel view-panel"><div id="map" aria-label="航线地图"></div><div id="map-status" class="map-status">正在加载地图…</div><div class="map-controls"><label><input id="toggle-basemap" type="checkbox" checked> 在线底图</label><label><input id="toggle-route" type="checkbox" checked> 执行航线</label><label><input id="toggle-template" type="checkbox" checked> 规划几何</label><label><input id="toggle-labels" type="checkbox" checked> 航点编号</label><button id="fit-route" type="button">适应航线</button></div></section>
+    <section id="globe-view" class="map-panel view-panel hidden"><div id="globe" aria-label="3D 航线地图"></div><div id="globe-status" class="map-status">正在加载本地 3D 场景…</div><div class="globe-controls"><span>本地简略地球影像 · 无需 Token</span><button id="fit-globe" type="button">适应航线</button></div></section>
+    <section id="fields-view" class="content-panel view-panel hidden"><div class="panel-head"><h2>字段解读</h2><p id="catalog-note" class="muted"></p></div><input id="field-search" class="search" type="search" placeholder="搜索字段名、中文名或路径"><div id="field-table" class="field-table"></div></section>
+    <section id="xml-view" class="content-panel view-panel hidden"><div class="panel-head"><h2>XML 原文</h2><button id="copy-xml" type="button">复制 XML</button></div><pre id="xml-source" class="xml-source"></pre></section>
+    <aside class="details-panel"><h2>航线信息</h2><dl id="route-details"></dl><div id="warnings" class="warnings hidden"></div><div id="waypoint-details" class="waypoint-details"><h2>航点详情</h2><p class="muted">点击地图上的航点查看详情。</p></div></aside>
+  </main>
+  <script src="/vendor/leaflet/leaflet.js"></script>
+  <script>window.CESIUM_BASE_URL = "/vendor/cesium/";</script>
+  <script src="/vendor/cesium/Cesium.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

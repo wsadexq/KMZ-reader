@@ -1,0 +1,2066 @@
+{
+  "template.kml": {
+    "author": {
+      "label": "文件创建作者",
+      "type": "字符串",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        142
+      ],
+      "ambiguous": false
+    },
+    "createTime": {
+      "label": "文件创建时间（Unix Timestamp）",
+      "type": "整型",
+      "unit": "ms",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        143
+      ],
+      "ambiguous": false
+    },
+    "updateTime": {
+      "label": "文件更新时间（Unix Timestamp）",
+      "type": "整型",
+      "unit": "ms",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        144
+      ],
+      "ambiguous": false
+    },
+    "flyToWaylineMode": {
+      "label": "飞向首航点模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        148
+      ],
+      "ambiguous": false
+    },
+    "finishAction": {
+      "label": "航线结束动作",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        155
+      ],
+      "ambiguous": false
+    },
+    "exitOnRCLost": {
+      "label": "失控是否继续执行航线",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        158
+      ],
+      "ambiguous": false
+    },
+    "executeRCLostAction": {
+      "label": "失控动作类型",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        160
+      ],
+      "ambiguous": false
+    },
+    "takeOffSecurityHeight": {
+      "label": "安全起飞高度",
+      "type": "浮点型",
+      "unit": "m",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        163
+      ],
+      "ambiguous": false
+    },
+    "globalTransitionalSpeed": {
+      "label": "全局航线过渡速度",
+      "type": "浮点型",
+      "unit": "m/s",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        165
+      ],
+      "ambiguous": false
+    },
+    "globalRTHHeight": {
+      "label": "全局返航高度",
+      "type": "浮点型",
+      "unit": "m",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        167
+      ],
+      "ambiguous": false
+    },
+    "takeOffRefPoint": {
+      "label": "参考起飞点",
+      "type": "浮点型",
+      "unit": "°, °, m",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        168
+      ],
+      "ambiguous": false
+    },
+    "takeOffRefPointAGLHeight": {
+      "label": "参考起飞点海拔高度",
+      "type": "浮点型",
+      "unit": "m",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        170
+      ],
+      "ambiguous": false
+    },
+    "droneInfo": {
+      "label": "飞行器机型信息",
+      "type": "-",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        171
+      ],
+      "ambiguous": false
+    },
+    "payloadInfo": {
+      "label": "负载机型信息",
+      "type": "-",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        172
+      ],
+      "ambiguous": false
+    },
+    "autoRerouteInfo": {
+      "label": "航线绕行",
+      "type": "-",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        173
+      ],
+      "ambiguous": false
+    },
+    "templateType": {
+      "label": "预定义模板类型",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        177
+      ],
+      "ambiguous": false
+    },
+    "templateId": {
+      "label": "模板ID",
+      "type": "整型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        182
+      ],
+      "ambiguous": false
+    },
+    "autoFlightSpeed": {
+      "label": "全局航线飞行速度",
+      "type": "浮点型",
+      "unit": "m/s",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        184
+      ],
+      "ambiguous": false
+    },
+    "waylineCoordinateSysParam": {
+      "label": "坐标系参数",
+      "type": "-",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        186
+      ],
+      "ambiguous": false
+    },
+    "payloadParam": {
+      "label": "负载设置",
+      "type": "-",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        187
+      ],
+      "ambiguous": false
+    },
+    "payloadPositionIndex": {
+      "label": "负载挂载位置",
+      "type": "整型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        190
+      ],
+      "ambiguous": false
+    },
+    "focusMode": {
+      "label": "负载对焦模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        191
+      ],
+      "ambiguous": false
+    },
+    "meteringMode": {
+      "label": "负载测光模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        193
+      ],
+      "ambiguous": false
+    },
+    "dewarpingEnable": {
+      "label": "是否开启畸变矫正",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        195
+      ],
+      "ambiguous": false
+    },
+    "returnMode": {
+      "label": "激光雷达回波模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        197
+      ],
+      "ambiguous": false
+    },
+    "samplingRate": {
+      "label": "负载采样率",
+      "type": "整型",
+      "unit": "Hz",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        200
+      ],
+      "ambiguous": false
+    },
+    "scanningMode": {
+      "label": "负载扫描模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        206
+      ],
+      "ambiguous": false
+    },
+    "modelColoringEnable": {
+      "label": "真彩上色",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        208
+      ],
+      "ambiguous": false
+    },
+    "imageFormat": {
+      "label": "图片格式列表",
+      "type": "枚举-string（列表）",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        210
+      ],
+      "ambiguous": false
+    },
+    "globalWaypointTurnMode": {
+      "label": "全局航点类型（全局航点转弯模式）",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        218
+      ],
+      "ambiguous": false
+    },
+    "globalUseStraightLine": {
+      "label": "全局航段轨迹是否尽量贴合直线",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        222
+      ],
+      "ambiguous": false
+    },
+    "gimbalPitchMode": {
+      "label": "云台俯仰角控制模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        225,
+        260
+      ],
+      "ambiguous": true
+    },
+    "globalHeight": {
+      "label": "全局航线高度（相对起飞点高度）",
+      "type": "m",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        227
+      ],
+      "ambiguous": false
+    },
+    "globalWaypointHeadingParam": {
+      "label": "全局偏航角模式参数",
+      "type": "-",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        229
+      ],
+      "ambiguous": false
+    },
+    "caliFlightEnable": {
+      "label": "是否开启标定飞行",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        233,
+        268,
+        287
+      ],
+      "ambiguous": false
+    },
+    "elevationOptimizeEnable": {
+      "label": "是否开启高程优化",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        236
+      ],
+      "ambiguous": false
+    },
+    "smartObliqueEnable": {
+      "label": "是否开启智能摆拍",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        238
+      ],
+      "ambiguous": false
+    },
+    "smartObliqueGimbalPitch": {
+      "label": "智能摆拍拍摄俯仰角",
+      "type": "整型",
+      "unit": "°",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        241
+      ],
+      "ambiguous": false
+    },
+    "shootType": {
+      "label": "拍照模式（定时或定距）",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        243,
+        274,
+        289
+      ],
+      "ambiguous": false
+    },
+    "direction": {
+      "label": "航线方向",
+      "type": "整型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        246,
+        276,
+        291
+      ],
+      "ambiguous": false
+    },
+    "margin": {
+      "label": "测区外扩距离",
+      "type": "整型",
+      "unit": "m",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        247,
+        277,
+        292
+      ],
+      "ambiguous": false
+    },
+    "overlap": {
+      "label": "重叠率参数",
+      "type": "-",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        248,
+        278,
+        302
+      ],
+      "ambiguous": false
+    },
+    "ellipsoidHeight": {
+      "label": "全局航线高度（椭球高）",
+      "type": "浮点型",
+      "unit": "m",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        249,
+        279,
+        303,
+        320
+      ],
+      "ambiguous": true
+    },
+    "height": {
+      "label": "全局航线高度（EGM96海拔高/相对起飞点高度/AGL相对地面高度）",
+      "type": "浮点型",
+      "unit": "m",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        251,
+        281,
+        305,
+        323
+      ],
+      "ambiguous": true
+    },
+    "facadeWaylineEnable": {
+      "label": "是否开启斜立面",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        253
+      ],
+      "ambiguous": false
+    },
+    "mappingHeadingParam": {
+      "label": "建图航拍飞行器朝向参数",
+      "type": "-",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        259
+      ],
+      "ambiguous": false
+    },
+    "gimbalPitchAngle": {
+      "label": "云台俯仰角度",
+      "type": "°",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        262,
+        343
+      ],
+      "ambiguous": true
+    },
+    "quickOrthoMappingEnable": {
+      "label": "正射智能摆拍开关",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        263
+      ],
+      "ambiguous": false
+    },
+    "quickOrthoMappingPitch": {
+      "label": "正射智能摆拍角度",
+      "type": "°",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        265
+      ],
+      "ambiguous": false
+    },
+    "inclinedGimbalPitch": {
+      "label": "云台俯仰角度（倾斜）",
+      "type": "整型",
+      "unit": "°",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        271
+      ],
+      "ambiguous": false
+    },
+    "inclinedFlightSpeed": {
+      "label": "航线飞行速度（倾斜）",
+      "type": "浮点型",
+      "unit": "m/s",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        272
+      ],
+      "ambiguous": false
+    },
+    "singleLineEnable": {
+      "label": "是否开启单航线飞行",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        293
+      ],
+      "ambiguous": false
+    },
+    "cuttingDistance": {
+      "label": "每个子航带航线长度",
+      "type": "浮点型",
+      "unit": "m",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        295
+      ],
+      "ambiguous": false
+    },
+    "boundaryOptimEnable": {
+      "label": "是否开启边缘优化",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        296
+      ],
+      "ambiguous": false
+    },
+    "leftExtend": {
+      "label": "航带左侧外扩距离",
+      "type": "整型",
+      "unit": "m",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        298
+      ],
+      "ambiguous": false
+    },
+    "rightExtend": {
+      "label": "航带右侧外扩距离",
+      "type": "整型",
+      "unit": "m",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        299
+      ],
+      "ambiguous": false
+    },
+    "includeCenterEnable": {
+      "label": "是否包含中心线",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        300
+      ],
+      "ambiguous": false
+    },
+    "stripUseTemplateAltitude": {
+      "label": "是否开启变高航带",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        307
+      ],
+      "ambiguous": false
+    },
+    "isRisky": {
+      "label": "是否危险点",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        314
+      ],
+      "ambiguous": false
+    },
+    "index": {
+      "label": "航点序号",
+      "type": "整型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        317
+      ],
+      "ambiguous": false
+    },
+    "useGlobalHeight": {
+      "label": "是否使用全局高度",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        319
+      ],
+      "ambiguous": false
+    },
+    "useGlobalSpeed": {
+      "label": "是否使用全局飞行速度",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        326
+      ],
+      "ambiguous": false
+    },
+    "waypointSpeed": {
+      "label": "航点飞行速度",
+      "type": "浮点型",
+      "unit": "m/s",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        329
+      ],
+      "ambiguous": false
+    },
+    "useGlobalHeadingParam": {
+      "label": "是否使用全局偏航角模式参数",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        332
+      ],
+      "ambiguous": false
+    },
+    "waypointHeadingParam": {
+      "label": "偏航角模式参数",
+      "type": "-",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        334
+      ],
+      "ambiguous": false
+    },
+    "useGlobalTurnParam": {
+      "label": "是否使用全局航点类型（全局航点转弯模式）",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        336
+      ],
+      "ambiguous": false
+    },
+    "waypointTurnParam": {
+      "label": "航点类型（航点转弯模式）",
+      "type": "-",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        338
+      ],
+      "ambiguous": false
+    },
+    "useStraightLine": {
+      "label": "该航段是否贴合直线",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        340
+      ],
+      "ambiguous": false
+    },
+    "coordinateMode": {
+      "label": "经纬度坐标系",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        347
+      ],
+      "ambiguous": false
+    },
+    "heightMode": {
+      "label": "航点高程参考平面",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        349
+      ],
+      "ambiguous": false
+    },
+    "positioningType": {
+      "label": "经纬度与高度数据源",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        353
+      ],
+      "ambiguous": false
+    },
+    "globalShootHeight": {
+      "label": "飞行器离被摄面高度（相对地面高）",
+      "type": "浮点型",
+      "unit": "m",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        358
+      ],
+      "ambiguous": false
+    },
+    "surfaceFollowModeEnable": {
+      "label": "是否开启仿地飞行",
+      "type": "布尔型",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        360
+      ],
+      "ambiguous": false
+    },
+    "surfaceRelativeHeight": {
+      "label": "仿地飞行离地高度（相对地面高）",
+      "type": "浮点型",
+      "unit": "m",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        362
+      ],
+      "ambiguous": false
+    },
+    "orthoLidarOverlapH": {
+      "label": "激光航向重叠率（正射）",
+      "type": "整型",
+      "unit": "百分比",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        367
+      ],
+      "ambiguous": false
+    },
+    "orthoLidarOverlapW": {
+      "label": "激光旁向重叠率（正射）",
+      "type": "整型",
+      "unit": "百分比",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        368
+      ],
+      "ambiguous": false
+    },
+    "orthoCameraOverlapH": {
+      "label": "可见光航向重叠率（正射）",
+      "type": "整型",
+      "unit": "百分比",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        369
+      ],
+      "ambiguous": false
+    },
+    "orthoCameraOverlapW": {
+      "label": "可见光旁向重叠率（正射）",
+      "type": "整型",
+      "unit": "百分比",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        370
+      ],
+      "ambiguous": false
+    },
+    "inclinedLidarOverlapH": {
+      "label": "激光航向重叠率（倾斜）",
+      "type": "整型",
+      "unit": "百分比",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        371
+      ],
+      "ambiguous": false
+    },
+    "inclinedLidarOverlapW": {
+      "label": "激光旁向重叠率（倾斜）",
+      "type": "整型",
+      "unit": "百分比",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        372
+      ],
+      "ambiguous": false
+    },
+    "inclinedCameraOverlapH": {
+      "label": "可见光航向重叠率（倾斜）",
+      "type": "整型",
+      "unit": "百分比",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        373
+      ],
+      "ambiguous": false
+    },
+    "inclinedCameraOverlapW": {
+      "label": "可见光旁向重叠率（倾斜）",
+      "type": "整型",
+      "unit": "百分比",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        374
+      ],
+      "ambiguous": false
+    },
+    "mappingHeadingMode": {
+      "label": "飞行器偏航角模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        377
+      ],
+      "ambiguous": false
+    },
+    "mappingHeadingAngle": {
+      "label": "飞行器偏航角",
+      "type": "整型",
+      "unit": "°",
+      "source": "template.kml 说明 (2026-03-19)",
+      "lines": [
+        379
+      ],
+      "ambiguous": false
+    }
+  },
+  "waylines.wpml": {
+    "flyToWaylineMode": {
+      "label": "飞向首航点模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        120
+      ],
+      "ambiguous": false
+    },
+    "finishAction": {
+      "label": "航线结束动作",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        127
+      ],
+      "ambiguous": false
+    },
+    "exitOnRCLost": {
+      "label": "失控是否继续执行航线",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        131
+      ],
+      "ambiguous": false
+    },
+    "executeRCLostAction": {
+      "label": "失控动作类型",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        133
+      ],
+      "ambiguous": false
+    },
+    "takeOffSecurityHeight": {
+      "label": "安全起飞高度",
+      "type": "浮点型",
+      "unit": "m",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        136
+      ],
+      "ambiguous": false
+    },
+    "globalTransitionalSpeed": {
+      "label": "全局航线过渡速度",
+      "type": "浮点型",
+      "unit": "m/s",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        138
+      ],
+      "ambiguous": false
+    },
+    "globalRTHHeight": {
+      "label": "全局返航高度",
+      "type": "浮点型",
+      "unit": "m",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        140
+      ],
+      "ambiguous": false
+    },
+    "droneInfo": {
+      "label": "飞行器机型信息",
+      "type": "-",
+      "unit": "",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        141
+      ],
+      "ambiguous": false
+    },
+    "payloadInfo": {
+      "label": "负载机型信息",
+      "type": "-",
+      "unit": "",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        142
+      ],
+      "ambiguous": false
+    },
+    "autoRerouteInfo": {
+      "label": "航线绕行",
+      "type": "-",
+      "unit": "",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        143
+      ],
+      "ambiguous": false
+    },
+    "templateId": {
+      "label": "模板ID",
+      "type": "整型",
+      "unit": "",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        146
+      ],
+      "ambiguous": false
+    },
+    "waylineId": {
+      "label": "航线ID",
+      "type": "整型",
+      "unit": "",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        148
+      ],
+      "ambiguous": false
+    },
+    "autoFlightSpeed": {
+      "label": "全局航线飞行速度",
+      "type": "浮点型",
+      "unit": "m/s",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        150
+      ],
+      "ambiguous": false
+    },
+    "executeHeightMode": {
+      "label": "执行高度模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        152
+      ],
+      "ambiguous": false
+    },
+    "startActionGroup": {
+      "label": "航线初始动作",
+      "type": "-",
+      "unit": "",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        157
+      ],
+      "ambiguous": false
+    },
+    "isRisky": {
+      "label": "是否危险点",
+      "type": "布尔型",
+      "unit": "",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        161
+      ],
+      "ambiguous": false
+    },
+    "index": {
+      "label": "航点序号",
+      "type": "整型",
+      "unit": "",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        164
+      ],
+      "ambiguous": false
+    },
+    "executeHeight": {
+      "label": "航点执行高度",
+      "type": "浮点型",
+      "unit": "m",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        166
+      ],
+      "ambiguous": false
+    },
+    "waypointSpeed": {
+      "label": "航点飞行速度，当前航点飞向下一个航点的速度",
+      "type": "浮点型",
+      "unit": "m/s",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        168
+      ],
+      "ambiguous": false
+    },
+    "waypointHeadingParam": {
+      "label": "偏航角模式参数",
+      "type": "-",
+      "unit": "",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        170
+      ],
+      "ambiguous": false
+    },
+    "waypointTurnParam": {
+      "label": "航点类型（航点转弯模式）",
+      "type": "-",
+      "unit": "",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        172
+      ],
+      "ambiguous": false
+    },
+    "useStraightLine": {
+      "label": "该航段是否贴合直线",
+      "type": "布尔型",
+      "unit": "",
+      "source": "waylines.wpml 说明 (2026-03-19)",
+      "lines": [
+        174
+      ],
+      "ambiguous": false
+    }
+  },
+  "common": {
+    "droneEnumValue": {
+      "label": "飞行器机型主类型",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        15
+      ],
+      "ambiguous": false
+    },
+    "droneSubEnumValue": {
+      "label": "飞行器机型子类型",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        16
+      ],
+      "ambiguous": false
+    },
+    "payloadEnumValue": {
+      "label": "负载机型主类型",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        20
+      ],
+      "ambiguous": false
+    },
+    "payloadPositionIndex": {
+      "label": "负载挂载位置",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        21,
+        24,
+        123,
+        135,
+        147,
+        155,
+        170,
+        174,
+        178,
+        198,
+        235,
+        297,
+        331,
+        343,
+        350,
+        373
+      ],
+      "ambiguous": false
+    },
+    "focusMode": {
+      "label": "负载对焦模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        25
+      ],
+      "ambiguous": false
+    },
+    "meteringMode": {
+      "label": "负载测光模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        27
+      ],
+      "ambiguous": false
+    },
+    "dewarpingEnable": {
+      "label": "是否开启畸变矫正",
+      "type": "布尔型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        29
+      ],
+      "ambiguous": false
+    },
+    "returnMode": {
+      "label": "激光雷达回波模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        31
+      ],
+      "ambiguous": false
+    },
+    "samplingRate": {
+      "label": "负载采样率",
+      "type": "整型",
+      "unit": "Hz",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        34
+      ],
+      "ambiguous": false
+    },
+    "scanningMode": {
+      "label": "负载扫描模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        40
+      ],
+      "ambiguous": false
+    },
+    "modelColoringEnable": {
+      "label": "真彩上色",
+      "type": "布尔型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        42
+      ],
+      "ambiguous": false
+    },
+    "imageFormat": {
+      "label": "图片格式列表",
+      "type": "枚举-string（列表）",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        44
+      ],
+      "ambiguous": false
+    },
+    "waypointHeadingMode": {
+      "label": "飞行器偏航角模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        52
+      ],
+      "ambiguous": false
+    },
+    "waypointHeadingAngle": {
+      "label": "飞行器偏航角度",
+      "type": "浮点型",
+      "unit": "°",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        57
+      ],
+      "ambiguous": false
+    },
+    "waypointPoiPoint": {
+      "label": "兴趣点",
+      "type": "-",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        60
+      ],
+      "ambiguous": false
+    },
+    "waypointHeadingPathMode": {
+      "label": "飞行器偏航角转动方向",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        62
+      ],
+      "ambiguous": false
+    },
+    "waypointTurnMode": {
+      "label": "航点类型（航点转弯模式）",
+      "type": "枚举 - string",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        67
+      ],
+      "ambiguous": false
+    },
+    "waypointTurnDampingDist": {
+      "label": "航点转弯截距",
+      "type": "浮点型",
+      "unit": "m",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        74
+      ],
+      "ambiguous": false
+    },
+    "missionAutoRerouteMode": {
+      "label": "任务航线绕行模式",
+      "type": "布尔型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        79
+      ],
+      "ambiguous": false
+    },
+    "transitionalAutoRerouteMode": {
+      "label": "过渡航线绕行模式",
+      "type": "布尔型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        80
+      ],
+      "ambiguous": false
+    },
+    "actionGroupId": {
+      "label": "动作组id",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        83
+      ],
+      "ambiguous": false
+    },
+    "actionGroupStartIndex": {
+      "label": "动作组开始生效的航点",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        85
+      ],
+      "ambiguous": false
+    },
+    "actionGroupEndIndex": {
+      "label": "动作组结束生效的航点",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        86
+      ],
+      "ambiguous": false
+    },
+    "actionGroupMode": {
+      "label": "动作执行模式",
+      "type": "枚举 - string",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        89
+      ],
+      "ambiguous": false
+    },
+    "actionTrigger": {
+      "label": "动作组触发器",
+      "type": "-",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        90
+      ],
+      "ambiguous": false
+    },
+    "action": {
+      "label": "动作列表",
+      "type": "-",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        91
+      ],
+      "ambiguous": false
+    },
+    "actionTriggerType": {
+      "label": "动作触发器类型",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        94
+      ],
+      "ambiguous": false
+    },
+    "actionTriggerParam": {
+      "label": "动作触发器参数",
+      "type": "浮点型浮点型",
+      "unit": "s或m",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        99
+      ],
+      "ambiguous": false
+    },
+    "actionId": {
+      "label": "动作id",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        103
+      ],
+      "ambiguous": false
+    },
+    "actionActuatorFunc": {
+      "label": "动作类型",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        105
+      ],
+      "ambiguous": false
+    },
+    "actionActuatorFuncParam": {
+      "label": "动作参数",
+      "type": "-",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        119
+      ],
+      "ambiguous": false
+    },
+    "fileSuffix": {
+      "label": "拍摄照片文件后缀",
+      "type": "字符串",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        124,
+        136
+      ],
+      "ambiguous": false
+    },
+    "payloadLensIndex": {
+      "label": "拍摄照片存储类型",
+      "type": "图片格式列表",
+      "unit": "枚举-string（列表）",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        125,
+        137,
+        148,
+        237,
+        298,
+        332
+      ],
+      "ambiguous": true
+    },
+    "useGlobalPayloadLensIndex": {
+      "label": "是否使用全局存储类型",
+      "type": "布尔型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        131,
+        143,
+        242,
+        303,
+        338
+      ],
+      "ambiguous": false
+    },
+    "isPointFocus": {
+      "label": "是否点对焦",
+      "type": "布尔型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        156
+      ],
+      "ambiguous": false
+    },
+    "focusX": {
+      "label": "对焦点位置",
+      "type": "浮点型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        157,
+        216,
+        284
+      ],
+      "ambiguous": true
+    },
+    "focusY": {
+      "label": "对焦点位置",
+      "type": "浮点型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        159,
+        219,
+        286
+      ],
+      "ambiguous": true
+    },
+    "focusRegionWidth": {
+      "label": "对焦区域宽度比",
+      "type": "浮点型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        161,
+        222,
+        288
+      ],
+      "ambiguous": true
+    },
+    "focusRegionHeight": {
+      "label": "对焦区域高度比",
+      "type": "浮点型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        164,
+        224,
+        289
+      ],
+      "ambiguous": true
+    },
+    "isInfiniteFocus": {
+      "label": "是否无穷远对焦",
+      "type": "布尔型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        167
+      ],
+      "ambiguous": false
+    },
+    "focalLength": {
+      "label": "变焦焦距",
+      "type": "浮点型",
+      "unit": "mm",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        171,
+        226,
+        290
+      ],
+      "ambiguous": false
+    },
+    "directoryName": {
+      "label": "新文件夹的名称",
+      "type": "字符串",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        175
+      ],
+      "ambiguous": false
+    },
+    "gimbalHeadingYawBase": {
+      "label": "云台偏航角转动坐标系",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        179
+      ],
+      "ambiguous": false
+    },
+    "gimbalRotateMode": {
+      "label": "云台转动模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        180
+      ],
+      "ambiguous": false
+    },
+    "gimbalPitchRotateEnable": {
+      "label": "是否使能云台Pitch转动",
+      "type": "布尔型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        181
+      ],
+      "ambiguous": false
+    },
+    "gimbalPitchRotateAngle": {
+      "label": "云台Pitch转动角度",
+      "type": "浮点型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        183,
+        197,
+        212,
+        278
+      ],
+      "ambiguous": false
+    },
+    "gimbalRollRotateEnable": {
+      "label": "是否使能云台Roll转动",
+      "type": "布尔型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        184
+      ],
+      "ambiguous": false
+    },
+    "gimbalRollRotateAngle": {
+      "label": "云台Roll转动角度",
+      "type": "浮点型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        186
+      ],
+      "ambiguous": false
+    },
+    "gimbalYawRotateEnable": {
+      "label": "是否使能云台Yaw转动",
+      "type": "布尔型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        187
+      ],
+      "ambiguous": false
+    },
+    "gimbalYawRotateAngle": {
+      "label": "云台Yaw转动角度",
+      "type": "浮点型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        189,
+        214,
+        282
+      ],
+      "ambiguous": false
+    },
+    "gimbalRotateTimeEnable": {
+      "label": "是否使能云台转动时间",
+      "type": "布尔型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        190
+      ],
+      "ambiguous": false
+    },
+    "gimbalRotateTime": {
+      "label": "云台完成转动用时",
+      "type": "浮点型",
+      "unit": "s",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        192
+      ],
+      "ambiguous": false
+    },
+    "aircraftHeading": {
+      "label": "飞行器目标偏航角（相对于地理北）",
+      "type": "浮点型",
+      "unit": "°",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        201,
+        228,
+        291
+      ],
+      "ambiguous": false
+    },
+    "aircraftPathMode": {
+      "label": "飞行器偏航角转动模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        203
+      ],
+      "ambiguous": false
+    },
+    "hoverTime": {
+      "label": "飞行器悬停等待时间",
+      "type": "浮点型",
+      "unit": "s",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        207
+      ],
+      "ambiguous": false
+    },
+    "accurateFrameValid": {
+      "label": "是否框选精准复拍目标",
+      "type": "布尔型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        231,
+        294
+      ],
+      "ambiguous": false
+    },
+    "targetAngle": {
+      "label": "目标框角度",
+      "type": "浮点型",
+      "unit": "°",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        245,
+        305
+      ],
+      "ambiguous": false
+    },
+    "imageWidth": {
+      "label": "照片宽度",
+      "type": "整型",
+      "unit": "px",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        248,
+        308
+      ],
+      "ambiguous": false
+    },
+    "imageHeight": {
+      "label": "照片高度",
+      "type": "整型",
+      "unit": "px",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        250,
+        309
+      ],
+      "ambiguous": false
+    },
+    "AFPos": {
+      "label": "AF电机位置",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        252,
+        310
+      ],
+      "ambiguous": false
+    },
+    "gimbalPort": {
+      "label": "云台端口号",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        254,
+        311
+      ],
+      "ambiguous": false
+    },
+    "accurateCameraType": {
+      "label": "相机类型",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        257
+      ],
+      "ambiguous": false
+    },
+    "accurateFilePath": {
+      "label": "照片文件路径",
+      "type": "字符串",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        264
+      ],
+      "ambiguous": false
+    },
+    "accurateFileMD5": {
+      "label": "照片文件MD5",
+      "type": "字符串",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        266
+      ],
+      "ambiguous": false
+    },
+    "accurateFileSize": {
+      "label": "照片文件大小",
+      "type": "整型",
+      "unit": "Byte",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        268
+      ],
+      "ambiguous": false
+    },
+    "accurateFileSuffix": {
+      "label": "照片文件后缀",
+      "type": "字符串",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        270
+      ],
+      "ambiguous": false
+    },
+    "accurateCameraApertue": {
+      "label": "光圈大小",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        272
+      ],
+      "ambiguous": false
+    },
+    "accurateCameraLuminance": {
+      "label": "环境亮度",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        273
+      ],
+      "ambiguous": false
+    },
+    "accurateCameraShutterTime": {
+      "label": "快门时间",
+      "type": "浮点型",
+      "unit": "秒",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        274
+      ],
+      "ambiguous": false
+    },
+    "accurateCameraISO": {
+      "label": "ISO",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        275
+      ],
+      "ambiguous": false
+    },
+    "actionUUID": {
+      "label": "动作唯一标识",
+      "type": "-",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        307,
+        351,
+        374
+      ],
+      "ambiguous": false
+    },
+    "orientedCameraType": {
+      "label": "相机类型",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        313
+      ],
+      "ambiguous": false
+    },
+    "orientedFilePath": {
+      "label": "照片文件路径",
+      "type": "字符串",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        319
+      ],
+      "ambiguous": false
+    },
+    "orientedFileMD5": {
+      "label": "照片文件MD5",
+      "type": "字符串",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        320
+      ],
+      "ambiguous": false
+    },
+    "orientedFileSize": {
+      "label": "照片文件大小",
+      "type": "整型",
+      "unit": "Byte",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        321
+      ],
+      "ambiguous": false
+    },
+    "orientedFileSuffix": {
+      "label": "照片文件后缀",
+      "type": "字符串",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        322
+      ],
+      "ambiguous": false
+    },
+    "orientedCameraApertue": {
+      "label": "光圈大小",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        323
+      ],
+      "ambiguous": false
+    },
+    "orientedCameraLuminance": {
+      "label": "环境亮度",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        324
+      ],
+      "ambiguous": false
+    },
+    "orientedCameraShutterTime": {
+      "label": "快门时间",
+      "type": "浮点型",
+      "unit": "秒",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        325
+      ],
+      "ambiguous": false
+    },
+    "orientedCameraISO": {
+      "label": "ISO",
+      "type": "整型",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        326
+      ],
+      "ambiguous": false
+    },
+    "orientedPhotoMode": {
+      "label": "拍照模式",
+      "type": "枚举-string",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        327
+      ],
+      "ambiguous": false
+    },
+    "panoShotSubMode": {
+      "label": "全景拍照模式",
+      "type": "字符串",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        340
+      ],
+      "ambiguous": false
+    },
+    "recordPointCloudOperate": {
+      "label": "点云操作",
+      "type": "字符串",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        344
+      ],
+      "ambiguous": false
+    },
+    "megaphoneOperateType": {
+      "label": "喊话动作开关",
+      "type": "整形",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        352
+      ],
+      "ambiguous": false
+    },
+    "megaphoneOperateVolume": {
+      "label": "喊话动作音量",
+      "type": "整形",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        355
+      ],
+      "ambiguous": false
+    },
+    "megaphoneOperateLoop": {
+      "label": "是否单曲循环播放",
+      "type": "布尔形",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        356
+      ],
+      "ambiguous": false
+    },
+    "megaphoneOperateFilePath": {
+      "label": "喊话音频文件在kmz中对应的路径",
+      "type": "字符串",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        359
+      ],
+      "ambiguous": false
+    },
+    "megaphoneFileName": {
+      "label": "喊话音频文件对应的名称",
+      "type": "字符串",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        360
+      ],
+      "ambiguous": false
+    },
+    "megaphoneFileOriginalName": {
+      "label": "喊话音频文件播放时显示的名字",
+      "type": "字符串",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        361
+      ],
+      "ambiguous": false
+    },
+    "megaphoneFileMd5": {
+      "label": "喊话音频文件的md5值",
+      "type": "字符串",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        362
+      ],
+      "ambiguous": false
+    },
+    "megaphoneFileBitrate": {
+      "label": "喊话音频文件的压缩比特率",
+      "type": "整形",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        363
+      ],
+      "ambiguous": false
+    },
+    "searchlightOperateType": {
+      "label": "探照灯操作类型",
+      "type": "整形",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        375
+      ],
+      "ambiguous": false
+    },
+    "searchlightBrightness": {
+      "label": "亮度",
+      "type": "整形",
+      "unit": "",
+      "source": "共用元素信息 (2026-03-19)",
+      "lines": [
+        379
+      ],
+      "ambiguous": false
+    }
+  }
+}
